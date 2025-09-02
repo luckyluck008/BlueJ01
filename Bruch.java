@@ -2,6 +2,9 @@ public class Bruch
 {
     private int zaehler;
     private int nenner;
+    private int zweiZaehler;
+    private int zweiNenner;
+    private int result;
 
     public Bruch(int zaehler, int nenner)
     {
@@ -71,5 +74,17 @@ public class Bruch
         }
 
         return a;
+    }
+    public int bruchAddieren(Bruch ersterBruch, Bruch zweiterBruch)
+    {
+        int a = Math.abs(this.ersterZaehler);
+        int b = Math.abs(this.ersterNenner);
+        int c = Math.abs(this.zweiZaehler);
+        int d = Math.abs(this.zweiNenner);
+        
+        
+       
+    
+        return this.result;
     }
 }
